@@ -6,6 +6,7 @@ import About from './components/about';
 import Form from './components/form';
 
 function App() {
+  // this is variable for the activeTab and it is tracked during the frontend
   const [activeTab, setActiveTab] = useState('home');
 
   return (
